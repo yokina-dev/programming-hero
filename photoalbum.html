@@ -5,74 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhotoAlbum</title>
+    <title>Lisa Photo</title>
     <style>
         .photo-album {
-            display: flex;
-        }
-
-        .photo-frame {
             width: 350px;
-            height: 350px;
-            border: 2px solid lightpink;
+            height: 300px;
+            border: 2px dotted lightcyan;
             border-radius: 5px;
-            position: relative;
         }
 
         .photo img {
             width: 100%;
-            border-radius: 5px;
-        }
-
-        .photo-detais {
-            display: none;
-            position: absolute;
-            width: 350px;
-            top: 0;
-        }
-
-        .photo-frame:hover .photo-detais {
-            display: block;
-            background-color: rgba(255, 182, 193, 0.247);
-        }
-
-        .photo-detais h3 {
-            background-color: rgba(133, 17, 127, 0.452);
         }
     </style>
 </head>
 
 <body>
     <section>
-        <h3>Lalisa Manobal Photo</h3>
-        <div class="photo-album">
-            <div class="photo-frame">
+        <div class="photo-frame">
+            <div class="photo-album">
                 <div class="photo">
                     <img src="./asset/lisa.jpg" alt="">
-                </div>
-                <div class="photo-detais">
-                    <h3>Lalisa Manobal</h3>
-                    <h4>
-                        Lalisa Manobal, known mononymously as Lisa, is a Thai rapper, singer and dancer based in South
-                        Korea. She is a member of the South Korean girl group Blackpink formed by YG Entertainment. Lisa
-                        made her solo debut with her single album Lalisa in September 2021
-                    </h4>
+                    <div class="about">
+                        <h3>LiSA</h3>
+                        <h4>Lalisa Manobal, known mononymously as Lisa, is a Thai rapper, singer and dancer based in
+                            South Korea. She is a member of the South Korean girl group Blackpink formed by YG
+                            Entertainment. Lisa made her solo debut with her single album Lalisa in September 2021</h4>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="photo-frame">
-            <div class="photo">
-                <img src="./asset/lisa.jpg" alt="">
-            </div>
-            <div class="photo-detais">
-                <h3>Lalisa Manobal</h3>
-                <h4>
-                    Lalisa Manobal, known mononymously as Lisa, is a Thai rapper, singer and dancer based in South
-                    Korea. She is a member of the South Korean girl group Blackpink formed by YG Entertainment. Lisa
-                    made her solo debut with her single album Lalisa in September 2021
-                </h4>
-            </div>
-        </div>
         </div>
     </section>
 </body>
